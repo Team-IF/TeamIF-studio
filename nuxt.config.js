@@ -16,6 +16,17 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
+
+  router: {
+    extendRoutes(routes, resolve) {
+      // routes.push({
+      //   name: 'custom',
+      //   path: '/',
+      //   component: resolve(__dirname, '')
+      // })
+    }
+  },
+
   /*
    ** Customize the progress-bar color
    */

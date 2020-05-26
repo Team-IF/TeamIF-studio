@@ -24,9 +24,9 @@ html {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
 }
-body {
+#mainBG {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: relative;
   overflow: hidden;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),

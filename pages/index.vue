@@ -7,12 +7,12 @@
   </div>
 </template>
 
-<script>
+<script scoped>
 import Logo from '~/components/Logo.vue'
 import mainBtn from '~/components/MainBtn'
 
 export default {
-  layout: 'main',
+  layout: 'home',
   components: {
     // eslint-disable-next-line vue/no-unused-components
     Logo,
