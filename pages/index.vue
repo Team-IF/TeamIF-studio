@@ -1,19 +1,22 @@
 <template>
   <div class="text-center mt-48 text-white">
-    <div class="blending text-6xl font-black text-black">
+    <div class="blending text-6xl font-black text-white">
       TeamIF Game Studio
     </div>
+    <mainBtn />
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import mainBtn from '~/components/MainBtn'
 
 export default {
-  layout: 'index',
+  layout: 'main',
   components: {
     // eslint-disable-next-line vue/no-unused-components
-    Logo
+    Logo,
+    mainBtn
   }
 }
 </script>

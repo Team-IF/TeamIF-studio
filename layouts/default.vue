@@ -1,5 +1,10 @@
 <template>
   <div>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Roboto:400,900"
+      rel="stylesheet"
+      type="text/css"
+    />
     <Navbar />
     <nuxt />
   </div>
@@ -16,8 +21,7 @@ export default {
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   height: 100vh;
 }
 </style>
