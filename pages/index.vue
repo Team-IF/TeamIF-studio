@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div class="text-center mt-48">
+    <div class="text-4xl font-bold">TeamIF Game Studio</div>
+  </div>
 </template>
 
 <script>
