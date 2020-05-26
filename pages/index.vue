@@ -1,6 +1,8 @@
 <template>
-  <div class="text-center mt-48">
-    <div class="text-4xl font-bold">TeamIF Game Studio</div>
+  <div class="text-center mt-48 text-white">
+    <div class="blending text-6xl font-black text-black">
+      TeamIF Game Studio
+    </div>
   </div>
 </template>
 
@@ -8,6 +10,7 @@
 import Logo from '~/components/Logo.vue'
 
 export default {
+  layout: 'index',
   components: {
     // eslint-disable-next-line vue/no-unused-components
     Logo
@@ -15,4 +18,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.blending {
+  mix-blend-mode: overlay;
+}
+</style>

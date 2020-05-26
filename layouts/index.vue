@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="mainBG">
     <Navbar />
     <nuxt />
   </div>
@@ -18,6 +18,11 @@ export default {
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
+  height: 100vh;
+}
+#mainBG {
+  background-image: url('https://cdn.discordapp.com/attachments/704599887416655994/714753465292685352/jake-blucker-z6F6UBQZyv0-unsplash_1.jpg');
+  background-size: cover;
   height: 100vh;
 }
 </style>
