@@ -23,5 +23,6 @@ export default {
 html {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
+  background-color: #fafafa;
 }
 </style>
